@@ -1,0 +1,29 @@
+{
+    "name": "biopset-protocol",
+    "version": "1.0.0",
+    "description": "The BiOpSet codebase",
+    "main": "truffle-config.js",
+    "directories": {
+        "test": "test"
+    },
+    "scripts": {
+        "test": "truffle test",
+        "build": "truffle compile",
+        "coverage": "truffle run coverage"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/biopset/biopset-protocol.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/biopset/biopset-protocol/issues"
+    },
+    "homepage": "https://github.com/biopset/biopset-protocol#readme",
+    "dependencies": {
+        "@openzeppelin/contracts": "^3.4.2",
+        "@openzeppelin/test-helpers": "^0.5.6",
+        "solidity-coverage": "^0.7.17"
+    }
+}
